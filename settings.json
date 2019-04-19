@@ -1,0 +1,53 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
+{
+    "workbench.colorTheme": "Default Light+",
+    "files.defaultLanguage": "powershell",
+    "powershell.codeFormatting.preset": "OTBS",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "window.restoreWindows": "one",
+    "editor.minimap.showSlider": "always",
+    "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderLong}${separator}",
+    "[csharp]": {},
+    "http.proxyStrictSSL": false,
+    "csharpfixformat.style.braces.allowInlines": false,
+    "team.showWelcomeMessage": false,
+    "editor.fontSize": 14,
+    "csharp.suppressDotnetInstallWarning": true,
+    "window.zoomLevel": 0,
+    "[powershell]": {
+        "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?"
+    },
+    "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#5aff44bb"
+    },
+    "powershell.powerShellExePath": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "powershell.developer.featureFlags": [
+        "PSReadLine"
+    ],
+    "breadcrumbs.enabled": true,
+    "editor.foldingStrategy": "indentation",
+    "git.enableSmartCommit": true,
+    "editor.tokenColorCustomizations": {
+        "[Cobalt2]": {
+            "textMateRules": [
+                {
+                    "scope": "punctuation.definition.variable.powershell",
+                    "settings": {
+                        "foreground": "#ff9100"
+                    }
+                }
+            ]
+        }
+    },
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.copyOnSelection": true,
+    "http.proxySupport": "on",
+    "powershell.scriptAnalysis.enable": false,
+    "yaml.format.enable": true,
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n"
+}
